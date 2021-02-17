@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 
 * **[iframe](https://apithanhtoan.com "Plugin page")**
 * **[Donate](https://apithanhtoan.com "Support the development")**
-* **[GitHub](https://apithanhtoan.com "Fork")**
+* **[GitHub](https://github.com/apithanhtoan/apithanhtoan-ty-gia-ngan-hang "Fork")**
 
 [iframe src="https://apithanhtoan.com/iframe/ty-gia-ngan-hang" width="100%" height="600"] shortcode
 should show something like this:
