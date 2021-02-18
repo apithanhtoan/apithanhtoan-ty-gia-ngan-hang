@@ -16,7 +16,7 @@ if (!defined('ABSPATH')) { // Avoid direct calls to this file and prevent full p
 define('APITHANHTOAN_IFRAME_PLUGIN_VERSION', '1.0');
 
 
-function iframe_plugin_add_shortcode_callback($atts)
+function apithanhtoan_ty_gia_ngan_hang_plugin_add_shortcode_callback($atts)
 {
 
 	$defaults = array(
@@ -69,10 +69,10 @@ function iframe_plugin_add_shortcode_callback($atts)
 	return $html;
 }
 
-add_shortcode('iframe', 'iframe_plugin_add_shortcode_callback');
+add_shortcode('iframe', 'apithanhtoan_ty_gia_ngan_hang_plugin_add_shortcode_callback');
 
 
-function iframe_plugin_row_meta_callback($links, $file)
+function apithanhtoan_ty_gia_ngan_hang_plugin_row_meta_callback($links, $file)
 {
 	if ($file == plugin_basename(__FILE__)) {
 		$row_meta = array(
@@ -84,7 +84,7 @@ function iframe_plugin_row_meta_callback($links, $file)
 	return (array) $links;
 }
 
-add_filter('plugin_row_meta', 'iframe_plugin_row_meta_callback', 10, 2);
+add_filter('plugin_row_meta', 'apithanhtoan_ty_gia_ngan_hang_plugin_row_meta_callback', 10, 2);
 
 // Define folder include img
 define('API_THANH_TOAN_URL', plugin_dir_url(__FILE__));

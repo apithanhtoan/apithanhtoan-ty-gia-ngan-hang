@@ -3,7 +3,7 @@ Contributors: Apithanhtoan Team
 Donate link: https://apithanhtoan.com
 Tags: iframe, embed, youtube, vimeo, google-map, google-maps
 Requires at least: 1.0
-Tested up to: 1.0
+Tested up to: 5.7
 Stable tag: 1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
