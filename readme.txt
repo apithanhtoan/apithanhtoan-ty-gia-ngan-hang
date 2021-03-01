@@ -66,4 +66,4 @@ So the protocol (http or httpS) for parent and embedded page should match.
 == Installation ==
 
 1. install and activate the plugin on the Plugins page
-2. add shortcode `[iframe src="https://www.youtube.com/watch?v=GS0pWV_WNho" width="100%" height="500"]` to page or post content
+2. add shortcode `[iframe src="https://apithanhtoan.com/iframe/ty-gia-ngan-hang" width="100%" height="600"]` to page or post content
