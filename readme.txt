@@ -35,7 +35,7 @@ So the protocol (http or httpS) for parent and embedded page should match.
 
 
 = iframe params: =
-* **src** - source of the iframe: `[iframe src="http://www.youtube.com/embed/oDlbBy9vfgI"]`; by default src="http://www.youtube.com/embed/oDlbBy9vfgI";
+* **src** - source of the iframe: `[iframe src="https://www.youtube.com/watch?v=GS0pWV_WNho"]`; by default src="https://www.youtube.com/watch?v=GS0pWV_WNho";
 * **width** - width in pixels or in percents: `[iframe width="100%"]` or `[iframe width="600"]`; by default width="100%";
 * **height** - height in pixels: `[iframe height="500"]`; by default height="500";
 * **scrolling** - with or without the scrollbar: `[iframe scrolling="no"]`; by default scrolling="yes";
@@ -64,4 +64,4 @@ So the protocol (http or httpS) for parent and embedded page should match.
 == Installation ==
 
 1. install and activate the plugin on the Plugins page
-2. add shortcode `[iframe src="http://www.youtube.com/embed/oDlbBy9vfgI" width="100%" height="500"]` to page or post content
+2. add shortcode `[iframe src="https://www.youtube.com/watch?v=GS0pWV_WNho" width="100%" height="500"]` to page or post content
