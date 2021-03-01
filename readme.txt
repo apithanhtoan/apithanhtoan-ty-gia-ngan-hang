@@ -19,7 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 [iframe src="https://apithanhtoan.com/iframe/ty-gia-ngan-hang" width="100%" height="600"] shortcode
 should show something like this:
 
-[youtube https://www.youtube.com/watch?v=mNc8-DjLo3I]
+[youtube https://www.youtube.com/watch?v=GS0pWV_WNho]
 
 
 WordPress removes iframe html tags because of security reasons.
@@ -27,7 +27,7 @@ Iframe shortcode is the replacement of the iframe html tag and accepts the same 
 You may use iframe shortcode to embed content from YouTube, Vimeo, Google Maps or from any external page.
 
 
-If you need to embed content from YouTube, Vimeo, SlideShare, SoundCloud, Twitter via direct link, you may use `[embed]https://www.youtube.com/watch?v=mNc8-DjLo3I[/embed]` shortcode.
+If you need to embed content from YouTube, Vimeo, SlideShare, SoundCloud, Twitter via direct link, you may use `[embed]https://www.youtube.com/watch?v=GS0pWV_WNho[/embed]` shortcode.
 [embed] shortcode is a core WordPress feature and can [embed content from many resources via direct link](http://codex.wordpress.org/Embeds).
 
 **Important**: You can not embed HTTP pages into HTTPS pages and vice versa.
@@ -60,6 +60,8 @@ So the protocol (http or httpS) for parent and embedded page should match.
 * sanitize URL.
 = 1.0 =
 * Initial release
+= 1.1 =
+* Update link youtube
 
 == Installation ==
 
